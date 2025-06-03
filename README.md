@@ -1,3 +1,14 @@
+# Week 2 (5/26/25 - 6/1/25)
+
+During Week 2, I formalized my project into a project proposal and did some preliminary analysis of the tree geographic data that my project will be built upon.
+
+This week I plan to continue the data analysis. Part of the preliminary step is a proof of concept for calculating allergen density given the various toggles that will be available to the user. Additionally, the data will need a bit of light cleaning to remove missing or irrelevant values. Just getting a feel for how the fields work though will be important for efficiently implementing what I need.
+
+There are no blocks at this time. Right now I am working with an extract of the data inside a JuPyter notebook, so no new tools to learn or anything (yet).
+
+To improve the process over last week, I think organizing things in GitHub will be helpful going forward to have everything in one place and clearly laid out.
+
+
 # Week 1 (5/19/25 - 5/25/25)
 
 During Week 1, I familiarized myself with the course structure, got my bearings on GitHub pages, and started scoping out my project plans. 
