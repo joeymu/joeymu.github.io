@@ -1,3 +1,18 @@
+# Week 3 (6/2/25 - 6/8/25)
+
+During Week 3, I read over some of the other projects and offered feedback.
+
+On my own project, I did further analysis in a JuPyter notebook and set up some preliminary functions to work with the data. Below is a snapshot from the notebook in which I generate a plot of all ash trees (my primary pollen allergen) in St. Louis:
+
+![A plot of all ash trees in St. Louis, MO](images/stl_ash_trees_plot.png)
+
+This visual was helpful to me in verifying that the lat/lon is working correctly and that the data is what I'd expect. In this case, the ash trees are spread all over the city, so a plot of them reveals essentially a map of St. Louis. Also visible is the "central corridor" running east to west through the middle, which is the most urban part of the city and thus the area with the fewest trees. Also, since the dataset is limited to public roads, various campuses and large parks are also visible as "holes" in the data. These holes may be something to come back to, but for now the point of this and other data exploration is just to get a feel for it and how I might best make use of it down the line.
+
+Right now, there are no blocks to progress. The main future block that I can currently anticipate is learning Flask in order to implement a back-end to the site - Python/Pandas to manipulate the data and HTML/JS for the front-end are not new to me.
+
+Like last week, I need to improve on uploading things to GitHub to keep it organized as well as document progress. Already I have mistakenly deleted code in a way that would be trivial to fix with a version history using Git.
+
+
 # Week 2 (5/26/25 - 6/1/25)
 
 During Week 2, I formalized my project into a project proposal and did some preliminary analysis of the tree geographic data that my project will be built upon.
