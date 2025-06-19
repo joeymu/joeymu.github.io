@@ -1,7 +1,7 @@
 # Week 4 (6/9/25 - 6/15/25)
 During Week 4, I primarily worked on setting up my personal site (here!). I have a lot to do in terms of improving its visual appeal, but the links now work together and I have a baseline going. On that front, I need to update my resume, settle on a style for the site, and perhaps link to some other web-based projects of mine in the technical skills section.
 
-On the actual project side of things, I completed the allergen density function that the site will use to produce the fundamental functionality of the app. This function will run on the server, takes in the parameters shown, and produces allergen densities (tree count per sq mi) as instructed as well as the "baseline" which is the allergen density for the provided tree species for the city overall.
+On the actual project side of things, I completed the allergen density function that the site will use to produce the fundamental functionality of the app. This function will run on the server, takes in the parameters shown, and produces allergen densities (tree count per sq mi) as instructed as well as the "baseline" which is the allergen density for the provided tree species for the city overall. Below is its usage, although the inner workings contain most of the complexity.
 ![An image demonstrating functionality of the relative_densities() function](images/stl_allergen_density_function.png)
 
 There are no current blocks to progress.
