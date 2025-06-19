@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Technical Skills</title>
+</head>
+<body>
+    <p><a href="index">Home</a></p>
+    <h1>Technical Skills</h1>
+    <p>
+        My technical skillset is centered on data analytics.
+    </p>
+    <p>
+        In terms of tooling, I have extensive professional experience in Excel (ask my about its under-utilized functional programming features!), Google Sheets, Snowflake, Tableau, and PowerBI.
+    </p>
+    <p>
+        In terms of programming, I have experience with Python (incl. numpy, pandas, sklearn, matplotlib, notebooks), SQL (incl. window functions and CTEs), VBA, and JavaScript as well as academic experience with C++.
+    </p>
+    <p>
+        In addition to professional experience in each of the languages above, see my <a href="project-blog.md">Project Blog</a> for info on an in-progress personal project using them as well.
+    </p>
+</body>
