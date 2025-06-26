@@ -1,3 +1,14 @@
+# Week 5 (6/16/25 - 6/22/25)
+During Week 5, I built a rudimentary Flask app that I can run locally. It has a very simple form page where comma-separated allergens can be submitted. Those are then processed using the dataset from St. Louis' forestry division to calculate the baseline density (allergens per sq mile) for the whole city and this density value is displayed as shown below.
+
+![Allergen Submission Page](images/allergen-submission-form.png)
+![Allergen Density Page](images/allergen-density-page.png)
+
+I have to say, even this very simplistic UI has been very gratifying to build and see bear fruit. The next steps will be adding the lat/lon to the submission form (to be replaced with a location sharing hopefully) and displaying multiple densities for different rings around the location. I'd also like to improve the UI beyong the minimalist, information-only state it is now in.
+
+Unfortunately something broke in my density function in porting it from a .ipynb notebook to Flask. It calculates the baseline density but returns all 0s for density within 500/1000/2500 feet. For now, that is a block on progress.
+
+
 # Week 4 (6/9/25 - 6/15/25)
 During Week 4, I primarily worked on setting up my personal site (here!). I have a lot to do in terms of improving its visual appeal, but the links now work together and I have a baseline going. On that front, I need to update my resume, settle on a style for the site, and perhaps link to some other web-based projects of mine in the technical skills section.
 
