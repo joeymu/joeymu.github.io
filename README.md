@@ -1,3 +1,13 @@
+# Week 6 (6/23/25 - 6/29/25)
+During Week 6, I explored different potential UI layouts on the front-end. Initially, the user would manually enter comma-separated text (ex: "ash, elm"), and the app would respond by filtering out all trees that didn't contain one of the provided text strings. However, this doesn't provide what the available options are, subvarieties of tree that may be relevant, and exposes the app to spelling mistakes. The layout below is an alternative that comes at the cost of much more laborious user input. It is constructed by sorting a unique list of valid tree identifiers from the dataset. A downside of this approach is also that instances such as "Elm, American" and "American Elm" will show up in very different places in the checkbox list.
+
+![Allergen Checkbox Submission Page](images/allergen_selection_checkbox.png)
+
+My goal is to try to find a happy medium between these two approaches. Ultimately I am envisioning a checkbox list that allows input text to temporarily filter and "check all." This way, a user could quickly search for ash, select all, search for elm, select all, and move on. However, this isn't native behavior for html forms, so I will be looking for a library with this functionality.
+
+There are no current blocks to progress.
+
+
 # Week 5 (6/16/25 - 6/22/25)
 During Week 5, I built a rudimentary Flask app that I can run locally. It has a very simple form page where comma-separated allergens can be submitted. Those are then processed using the dataset from St. Louis' forestry division to calculate the baseline density (allergens per sq mile) for the whole city and this density value is displayed as shown below.
 
