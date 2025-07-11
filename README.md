@@ -1,3 +1,17 @@
+# Week 7 (6/30/25 - 7/6/25)
+During Week 7, I developed a UI display for the results that is at least not hostile to the reader's eye. I hope to improve the look and feel of this and potentially add a map or other information in the boxes.
+
+Through the process of building this I became more familiar with how Flask uses HTML templates.
+
+A picture tells a thousand words:
+
+![Allergen Density Display](images/allergen_display_ui_v1.png)
+
+Up next is working on the front-end UI. Making something that enables the user to exploit the granularity of the data available while also not being overwhelming/tedious is going to be tricky.
+
+There are no current blocks to progress.
+
+
 # Week 6 (6/23/25 - 6/29/25)
 During Week 6, I explored different potential UI layouts on the front-end. Initially, the user would manually enter comma-separated text (ex: "ash, elm"), and the app would respond by filtering out all trees that didn't contain one of the provided text strings. However, this doesn't provide what the available options are, subvarieties of tree that may be relevant, and exposes the app to spelling mistakes. The layout below is an alternative that comes at the cost of much more laborious user input. It is constructed by sorting a unique list of valid tree identifiers from the dataset. A downside of this approach is also that instances such as "Elm, American" and "American Elm" will show up in very different places in the checkbox list.
 
