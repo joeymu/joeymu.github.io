@@ -1,3 +1,14 @@
+# Week 8 (7/7/25 - 7/13/25)
+During Week 8, I enhanced the UI display. It now also shows which allergens were selected on the prior screen and includes an embedded map from Google Maps showing the location. 
+The "Selected Allergens" section has a scroll bar for cases when more species are selected than will fit on the screen. It still doesn't look very visually appealing but there is functionality there at least now.
+
+![Allergen Density Display v2](images/allergen_display_ui_v2.png)
+
+My plan next is to look into adding concentric circles around the center point on the map to visualize the different radii displayed on top. I also want to display a bit more data in the "Personalized Allergen Density" section to maybe show the absolute count of allergens and some smaller radii. The "Selected Allergens" may also become the allergen selecter portion, so the app itself will become one page instead of a selection->results system.
+
+There are no major blocks to progress. One possible block is that Google Maps requires an API key for certain features.
+
+
 # Week 7 (6/30/25 - 7/6/25)
 During Week 7, I developed a UI display for the results that is at least not hostile to the reader's eye. I hope to improve the look and feel of this and potentially add a map or other information in the boxes.
 
