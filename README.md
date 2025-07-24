@@ -1,3 +1,15 @@
+# Week 9 (7/14/25 - 7/20/25)
+During Week 9, I added a feature that automatically detects the user's location after their approval via a pop-up in the browser. These lat/lon coordinates are then used to auto-populate the html form that ultimately provides the backend with the information it needs to generate the results page.
+
+The user can still enter their own custom coordinates if so desired.
+
+![Location_Form](images/location_form.png)
+
+My plan next is to do more with the mapping portion of the results page to visualize what the concentric rings are and potentially even plot the allergens if it doesn't slow the app down.
+
+There are no major blocks to progress.
+
+
 # Week 8 (7/7/25 - 7/13/25)
 During Week 8, I enhanced the UI display. It now also shows which allergens were selected on the prior screen and includes an embedded map from Google Maps showing the location. 
 The "Selected Allergens" section has a scroll bar for cases when more species are selected than will fit on the screen. It still doesn't look very visually appealing but there is functionality there at least now.
