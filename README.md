@@ -1,3 +1,17 @@
+# Week 10
+
+During Week 10, I refactored the project a bit, moving it towards being a single page. Originally I went with one selection page and then a second results page because I was concerned about performance with 100k+ data points to iterate over on the backend each time. But I did some testing and refactoring and found that by pre-calculating the density for each of the ~650 tree species in the 4 different radii (500ft, 1000ft, 2500ft, citywide), I could actually just send that data to the front end in one chunk and then update the displayed results instantly in front-end JavaScript. 
+
+This will enable a single page structure and a much more responsive feel for the app with a very small tradeoff (the density rings themselves are fixed when Flask sends the data to the front-end). Overall I was very pleased as at the start of the project never would have though it could be so snappy being a simple web app. 
+
+Just look at it go!:
+![Live Update Demonstration](/images/live-update-demonstration.png)
+
+That said, it is still visually not at the end point yet. Next week I will prioritize moving some things around, cleaning up the code, and converting it to a single page rather than 2-page site. I also want to do some testing on a toggleable radius so the user isn't locked into the 3 preset values.
+
+There are no major blocks right now.
+
+
 # Week 9 (7/14/25 - 7/20/25)
 During Week 9, I added a feature that automatically detects the user's location after their approval via a pop-up in the browser. These lat/lon coordinates are then used to auto-populate the html form that ultimately provides the backend with the information it needs to generate the results page.
 
