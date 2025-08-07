@@ -3,6 +3,10 @@
 I made a lot of changes in Week 11. For starters, I fully refactored the app into one page. The allergens can be selected on the page and the resulting information is updated live. Additionally, the location is set on page load once the user confirms they want to share their location data. If they opt out or want to change the location later, this can be done simply by selecting a point on the map. 
 I also switched from using an embedded Google map over to Open Street Map as displayed by Leaflet. Overall it runs very smoothly and I learned a lot about asynchronous functions in JavaScript to make sure the page waits for data from Flask before moving on with certain functions.
 
+Here is the state current (no GIF this time - I had issues getting it to work this week):
+
+![Week 11 update](images/week-11.png)
+
 Next week I intend to tidy up the visual appearance, add some acknowledgements and a link to the source of the dataset, and refactor the code a bit since there may be some unused pieces now that I've restructured the app a bit.
 
 There are no blocks currently.
@@ -15,7 +19,7 @@ During Week 10, I refactored the project a bit, moving it towards being a single
 This will enable a single page structure and a much more responsive feel for the app with a very small tradeoff (the density rings themselves are fixed when Flask sends the data to the front-end). Overall I was very pleased as at the start of the project never would have though it could be so snappy being a simple web app. 
 
 Just look at it go!:
-![Live Update Demonstration](/images/live-update-demonstration.gif)
+![Live Update Demonstration](images/live-update-demonstration.gif)
 
 That said, it is still visually not at the end point yet. Next week I will prioritize moving some things around, cleaning up the code, and converting it to a single page rather than 2-page site. I also want to do some testing on a toggleable radius so the user isn't locked into the 3 preset values.
 
