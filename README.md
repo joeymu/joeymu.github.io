@@ -1,3 +1,13 @@
+# Week 11
+
+I made a lot of changes in Week 11. For starters, I fully refactored the app into one page. The allergens can be selected on the page and the resulting information is updated live. Additionally, the location is set on page load once the user confirms they want to share their location data. If they opt out or want to change the location later, this can be done simply by selecting a point on the map. 
+I also switched from using an embedded Google map over to Open Street Map as displayed by Leaflet. Overall it runs very smoothly and I learned a lot about asynchronous functions in JavaScript to make sure the page waits for data from Flask before moving on with certain functions.
+
+Next week I intend to tidy up the visual appearance, add some acknowledgements and a link to the source of the dataset, and refactor the code a bit since there may be some unused pieces now that I've restructured the app a bit.
+
+There are no blocks currently.
+
+
 # Week 10
 
 During Week 10, I refactored the project a bit, moving it towards being a single page. Originally I went with one selection page and then a second results page because I was concerned about performance with 100k+ data points to iterate over on the backend each time. But I did some testing and refactoring and found that by pre-calculating the density for each of the ~650 tree species in the 4 different radii (500ft, 1000ft, 2500ft, citywide), I could actually just send that data to the front end in one chunk and then update the displayed results instantly in front-end JavaScript. 
