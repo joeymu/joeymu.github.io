@@ -1,0 +1,6 @@
+title: Joey
+description: Project Portfolio
+
+collections:
+  projects:
+    output: true
