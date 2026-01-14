@@ -1,6 +1,8 @@
 title: Joey
 description: Project Portfolio
 
+remote_theme: abhinavs/moonwalk
+
 collections:
   projects:
     output: true
