@@ -12,6 +12,8 @@ layout: home
 - [Resume](/resume-2023.pdf)
 
 ## Projects
+- [Neural Network in Excel](/projects/excel-neural-network.md)
+
 {% for project in site.projects %}
 - [{{ project.title }}]({{ project.url }})
 {% endfor %}
