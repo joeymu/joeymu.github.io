@@ -6,4 +6,6 @@ lorem ipsum etc.
 
 ## Background
 
-## Architecture
+## Network Architecture / Hyperparameters
+
+## Optimizing for Excel
